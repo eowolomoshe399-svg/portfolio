@@ -1,0 +1,41 @@
+/* ============================================================
+   RESPONSIVE
+   Mobile and tablet breakpoints (max-width: 900px)
+   ============================================================ */
+
+@media(max-width:900px){
+
+  /* Navigation */
+  nav{padding:1rem 1.5rem}
+  .nav-links{display:none}
+
+  /* Hero */
+  .hero{grid-template-columns:1fr;padding:7rem 1.5rem 3rem;gap:2rem}
+  .hero-right{display:none}
+
+  /* Sections */
+  .section{padding:4rem 1.5rem}
+
+  /* About + Contact */
+  .about-grid,.contact-wrap{grid-template-columns:1fr}
+
+  /* Skills */
+  .skills-grid{grid-template-columns:1fr 1fr}
+
+  /* Projects */
+  .projects-grid{grid-template-columns:1fr}
+  .pc.wide{grid-column:span 1;grid-template-columns:1fr}
+
+  /* Experience */
+  .experience-row{grid-template-columns:1fr;gap:.5rem}
+
+  /* Certifications */
+  .cert-grid{grid-template-columns:1fr 1fr}
+
+  /* Footer */
+  footer{flex-direction:column;gap:.5rem;text-align:center}
+
+  /* Disable custom cursor on touch devices */
+  body{cursor:auto}
+  .cur,.cur-r{display:none}
+}
