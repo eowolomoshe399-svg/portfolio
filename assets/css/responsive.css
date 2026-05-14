@@ -1,41 +1,55 @@
-/* ============================================================
-   RESPONSIVE
-   Mobile and tablet breakpoints (max-width: 900px)
-   ============================================================ */
+/* responsive.css - mobile and tablet styles */
+/* everything below 900px */
 
-@media(max-width:900px){
+@media (max-width: 900px) {
 
-  /* Navigation */
-  nav{padding:1rem 1.5rem}
-  .nav-links{display:none}
+  /* nav - just show logo and green dot on mobile */
+  nav { padding: 1rem 1.5rem; }
+  .nav-links { display: none; }
 
-  /* Hero */
-  .hero{grid-template-columns:1fr;padding:7rem 1.5rem 3rem;gap:2rem}
-  .hero-right{display:none}
+  /* hero stacks to one column, terminal hides */
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 7rem 1.5rem 3rem;
+    gap: 2rem;
+  }
+  .hero-right { display: none; }
 
-  /* Sections */
-  .section{padding:4rem 1.5rem}
+  /* sections get less padding */
+  .section { padding: 4rem 1.5rem; }
 
-  /* About + Contact */
-  .about-grid,.contact-wrap{grid-template-columns:1fr}
+  /* grids go single column */
+  .about-grid,
+  .contact-wrap { grid-template-columns: 1fr; }
 
-  /* Skills */
-  .skills-grid{grid-template-columns:1fr 1fr}
+  /* skills goes 2 col */
+  .skills-grid { grid-template-columns: 1fr 1fr; }
 
-  /* Projects */
-  .projects-grid{grid-template-columns:1fr}
-  .pc.wide{grid-column:span 1;grid-template-columns:1fr}
+  /* projects stack */
+  .projects-grid { grid-template-columns: 1fr; }
+  .pc.wide {
+    grid-column: span 1;
+    grid-template-columns: 1fr;
+  }
 
-  /* Experience */
-  .experience-row{grid-template-columns:1fr;gap:.5rem}
+  /* experience loses the date sidebar */
+  .experience-row {
+    grid-template-columns: 1fr;
+    gap: .5rem;
+  }
 
-  /* Certifications */
-  .cert-grid{grid-template-columns:1fr 1fr}
+  /* certs go 2 col */
+  .cert-grid { grid-template-columns: 1fr 1fr; }
 
-  /* Footer */
-  footer{flex-direction:column;gap:.5rem;text-align:center}
+  /* footer stacks */
+  footer {
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+  }
 
-  /* Disable custom cursor on touch devices */
-  body{cursor:auto}
-  .cur,.cur-r{display:none}
+  /* no custom cursor on touch screens */
+  body { cursor: auto; }
+  .cur, .cur-r { display: none; }
+
 }

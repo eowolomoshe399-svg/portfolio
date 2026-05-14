@@ -5,22 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Emmanuel Ilyas | CS Student and Developer</title>
 
-  <!-- Google Fonts -->
+  <!-- fonts - only using JetBrains Mono for the terminal feel -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
 
-  <!-- Stylesheets -->
+  <!-- stylesheets -->
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/animations.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
 
-  <!-- Custom cursor dots -->
+  <!-- custom cursor -->
   <div class="cur" id="cur"></div>
   <div class="cur-r" id="curR"></div>
 
-  <!-- Top navigation -->
+  <!-- navigation -->
   <nav>
     <a href="#" class="logo">E.<em>Ilyas</em></a>
     <ul class="nav-links">
@@ -33,7 +33,7 @@
     <div class="nav-dot" title="Available for placement"></div>
   </nav>
 
-  <!-- Hero section -->
+  <!-- hero -->
   <div class="hero">
     <div class="orb orb1"></div>
     <div class="orb orb2"></div>
@@ -46,8 +46,9 @@
         <span class="outline">Owolomoshe</span>
       </h1>
       <p class="hero-subtitle">
-        I build things. Software, hardware, the occasional security lab that goes further than expected.
-        Studying CS at BCU and looking for a <strong>12-month placement from July 2026</strong>.
+        I build things. Software, hardware, the occasional security lab that goes
+        further than expected. Studying CS at BCU and looking for a
+        <strong>12-month placement from July 2026</strong>.
       </p>
       <div class="hero-buttons">
         <a href="#projects" class="btn btn-fill">See my work</a>
@@ -56,30 +57,35 @@
       </div>
     </div>
 
-    <!-- Fake terminal showing real project output -->
+    <!-- terminal widget - output from my actual project -->
     <div class="hero-right">
       <div class="terminal">
         <div class="terminal-bar">
-          <div class="terminal-dot"></div><div class="terminal-dot"></div><div class="terminal-dot"></div>
+          <div class="terminal-dot"></div>
+          <div class="terminal-dot"></div>
+          <div class="terminal-dot"></div>
           <span class="terminal-name">bash</span>
         </div>
         <div class="terminal-body">
           <div><span class="term-green">ilyas</span><span class="term-dim">@bcu</span> <span class="term-orange">$</span> whoami</div>
-          <div class="term-cream" style="margin:.3rem 0">CS student, developer, placement seeker</div><br>
+          <div class="term-cream" style="margin: .3rem 0">CS student, developer, placement seeker</div>
+          <br>
 
           <div><span class="term-green">ilyas</span><span class="term-dim">@bcu</span> <span class="term-orange">$</span> cat skills.txt</div>
-          <div style="margin:.3rem 0">
+          <div style="margin: .3rem 0">
             <span class="term-orange">languages:</span> Python, JS, SQL, Java<br>
             <span class="term-orange">security: </span> Burp Suite, Wireshark, Kali<br>
             <span class="term-orange">web:      </span> React, HTML/CSS, Figma<br>
             <span class="term-orange">systems:  </span> Linux, Git, Networking
-          </div><br>
+          </div>
+          <br>
 
           <div><span class="term-green">ilyas</span><span class="term-dim">@bcu</span> <span class="term-orange">$</span> python3 -m unittest testA -v</div>
-          <div style="margin:.3rem 0">
+          <div style="margin: .3rem 0">
             <span class="term-dim">Ran 13 tests in 0.001s</span><br>
             <span class="term-green">OK, all tests passed ✓</span>
-          </div><br>
+          </div>
+          <br>
 
           <div><span class="term-green">ilyas</span><span class="term-dim">@bcu</span> <span class="term-orange">$</span> <span class="terminal-cursor"></span></div>
         </div>
@@ -89,7 +95,7 @@
 
   <hr class="divider">
 
-  <!-- 01 About -->
+  <!-- 01 about -->
   <section class="section" id="about">
     <div class="section-label">01 / About</div>
     <h2 class="section-title reveal">Who I <em>am</em></h2>
@@ -100,17 +106,29 @@
         <p class="about-paragraph">I also work part-time at <strong>BUPA Care Homes</strong> and spent several months at Circle Health Group handling patient records in an NHS-adjacent environment. That kind of work teaches you to be careful and consistent in a way that no module really can.</p>
       </div>
       <div class="stats-grid">
-        <div class="stat-block"><div class="stat-number">2:1</div><div class="stat-label">Year 1 Grade</div></div>
-        <div class="stat-block"><div class="stat-number">13+</div><div class="stat-label">Cyber Labs</div></div>
-        <div class="stat-block"><div class="stat-number">13</div><div class="stat-label">Unit Tests</div></div>
-        <div class="stat-block"><div class="stat-number">3+</div><div class="stat-label">Years Work Exp</div></div>
+        <div class="stat-block">
+          <div class="stat-number">2:1</div>
+          <div class="stat-label">Year 1 Grade</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">13+</div>
+          <div class="stat-label">Cyber Labs</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">13</div>
+          <div class="stat-label">Unit Tests</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">3+</div>
+          <div class="stat-label">Years Work Exp</div>
+        </div>
       </div>
     </div>
   </section>
 
   <hr class="divider">
 
-  <!-- 02 Skills -->
+  <!-- 02 skills -->
   <section class="section" id="skills">
     <div class="section-label">02 / Skills</div>
     <h2 class="section-title reveal">What I <em>work with</em></h2>
@@ -118,48 +136,87 @@
       <div class="skill-card">
         <div class="skill-icon">⌨️</div>
         <div class="skill-category">Languages</div>
-        <div class="tags"><span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">HTML/CSS</span><span class="tag">SQL</span><span class="tag">Java</span><span class="tag">Bash</span></div>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Java</span>
+          <span class="tag">Bash</span>
+        </div>
       </div>
       <div class="skill-card">
         <div class="skill-icon">🔐</div>
         <div class="skill-category">Cybersecurity</div>
-        <div class="tags"><span class="tag">Burp Suite</span><span class="tag">Wireshark</span><span class="tag">Nmap</span><span class="tag">Metasploit</span><span class="tag">Kali Linux</span><span class="tag">SQLMap</span><span class="tag">OWASP</span></div>
+        <div class="tags">
+          <span class="tag">Burp Suite</span>
+          <span class="tag">Wireshark</span>
+          <span class="tag">Nmap</span>
+          <span class="tag">Metasploit</span>
+          <span class="tag">Kali Linux</span>
+          <span class="tag">SQLMap</span>
+          <span class="tag">OWASP</span>
+        </div>
       </div>
       <div class="skill-card">
         <div class="skill-icon">🌐</div>
         <div class="skill-category">Web and Frameworks</div>
-        <div class="tags"><span class="tag">React</span><span class="tag">Bootstrap</span><span class="tag">Figma</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">REST APIs</span></div>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">Figma</span>
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">REST APIs</span>
+        </div>
       </div>
       <div class="skill-card">
         <div class="skill-icon">🖥️</div>
         <div class="skill-category">Systems and Data</div>
-        <div class="tags"><span class="tag">Linux/Ubuntu</span><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Power BI</span><span class="tag">Networking</span><span class="tag">IT Support</span></div>
+        <div class="tags">
+          <span class="tag">Linux/Ubuntu</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Networking</span>
+          <span class="tag">IT Support</span>
+        </div>
       </div>
     </div>
   </section>
 
   <hr class="divider">
 
-  <!-- 03 Projects -->
+  <!-- 03 projects -->
   <section class="section" id="projects">
     <div class="section-label">03 / Projects</div>
     <h2 class="section-title reveal">Things I've <em>built</em></h2>
     <div class="projects-grid reveal">
 
-      <!-- Featured project -->
-      <div class="project-card wide">
+      <!-- main project - spans full width -->
+      <div class="project-card pc wide">
         <div>
           <div class="project-number"><span>01</span> Featured Project</div>
           <div class="project-title">Hex, Memory and Stack Calculator</div>
-          <div class="project-tags"><span class="tag">Python</span><span class="tag">unittest</span><span class="tag">CLI</span><span class="tag">Low-level Systems</span></div>
-          <p class="project-description">Built this for the Computer Mathematics module at BCU. It's a CLI tool that handles hex and binary conversion, little-endian memory layout, ASCII memory dumps, array addressing and stack frame simulation. Wrote 13 unit tests to cover boundaries and edge cases. All passing.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">unittest</span>
+            <span class="tag">CLI</span>
+            <span class="tag">Low-level Systems</span>
+          </div>
+          <p class="project-description">Built this for the Computer Mathematics module at BCU. CLI tool that handles hex and binary conversion, little-endian memory layout, ASCII memory dumps, array addressing and stack frame simulation. Wrote 13 unit tests to cover boundaries and edge cases. All passing.</p>
           <div class="project-footer">
             <a href="https://github.com/eowolomoshe399-svg/hex-memory-stack-calculator" target="_blank" class="project-link">View on GitHub</a>
-            <span style="font-family:'JetBrains Mono',monospace;font-size:.6rem;color:var(--green)">13/13 passing ✓</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: .6rem; color: var(--green)">13/13 passing ✓</span>
           </div>
         </div>
         <div class="code-block">
-          <div class="code-block-header"><div class="code-block-dot"></div><div class="code-block-dot"></div><div class="code-block-dot"></div><span class="code-block-filename">programA.py</span></div>
+          <div class="code-block-header">
+            <div class="code-block-dot"></div>
+            <div class="code-block-dot"></div>
+            <div class="code-block-dot"></div>
+            <span class="code-block-filename">programA.py</span>
+          </div>
           <div class="code-block-body">
             <span class="syn-comment"># converts decimal to hex and 16-bit binary</span><br>
             <span class="syn-keyword">def</span> <span class="syn-function">convert</span>(n):<br>
@@ -178,22 +235,36 @@
         </div>
       </div>
 
-      <!-- IoT project -->
+      <!-- iot project -->
       <div class="project-card">
         <div class="project-number"><span>02</span></div>
         <div class="project-title">IoT Home Motion Light System</div>
-        <div class="project-tags"><span class="tag">Hardware</span><span class="tag">Microcontroller</span><span class="tag">IoT</span><span class="tag">Web Interface</span></div>
+        <div class="project-tags">
+          <span class="tag">Hardware</span>
+          <span class="tag">Microcontroller</span>
+          <span class="tag">IoT</span>
+          <span class="tag">Web Interface</span>
+        </div>
         <p class="project-description">Wired this up from scratch using motion sensors and a microcontroller. Built a small web interface so I could control it from my phone. Took it to BCU Innovation Fest and presented it to a live panel. Probably the most fun I've had on a uni project.</p>
-        <div class="project-footer"><span class="project-link project-link--muted">Presented at BCU Innovation Fest 2025</span></div>
+        <div class="project-footer">
+          <span class="project-link pl link-dim">Presented at BCU Innovation Fest 2025</span>
+        </div>
       </div>
 
-      <!-- Freelance work -->
+      <!-- freelance -->
       <div class="project-card">
         <div class="project-number"><span>03</span></div>
         <div class="project-title">Freelance Web Projects</div>
-        <div class="project-tags"><span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">HTML/CSS</span><span class="tag">APIs</span></div>
+        <div class="project-tags">
+          <span class="tag">React</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">APIs</span>
+        </div>
         <p class="project-description">A few client websites I built and shipped myself. Responsive and mobile-first, with third-party API integrations where needed. Handled everything from the initial brief through to deployment. Version control throughout, accessibility and performance checked.</p>
-        <div class="project-footer"><a href="https://github.com/eowolomoshe399-svg" target="_blank" class="project-link">GitHub</a></div>
+        <div class="project-footer">
+          <a href="https://github.com/eowolomoshe399-svg" target="_blank" class="project-link">GitHub</a>
+        </div>
       </div>
 
     </div>
@@ -201,14 +272,17 @@
 
   <hr class="divider">
 
-  <!-- 04 Experience -->
+  <!-- 04 experience -->
   <section class="section" id="experience">
     <div class="section-label">04 / Experience</div>
     <h2 class="section-title reveal">Where I've <em>worked</em></h2>
     <div class="experience-list reveal">
 
       <div class="experience-row">
-        <div><div class="exp-date">Aug 2024 to Present</div><div class="exp-company">BUPA Care Homes</div></div>
+        <div>
+          <div class="exp-date">Aug 2024 to Present</div>
+          <div class="exp-company">BUPA Care Homes</div>
+        </div>
         <div>
           <div class="exp-role">Assistant Chef (Contract)</div>
           <ul class="exp-bullets">
@@ -220,7 +294,10 @@
       </div>
 
       <div class="experience-row">
-        <div><div class="exp-date">Aug 2023 to Jan 2024</div><div class="exp-company">Circle Health Group</div></div>
+        <div>
+          <div class="exp-date">Aug 2023 to Jan 2024</div>
+          <div class="exp-company">Circle Health Group</div>
+        </div>
         <div>
           <div class="exp-role">Surgery Host</div>
           <ul class="exp-bullets">
@@ -232,7 +309,10 @@
       </div>
 
       <div class="experience-row">
-        <div><div class="exp-date">2020 to 2022</div><div class="exp-company">Prince Ademola Ventures</div></div>
+        <div>
+          <div class="exp-date">2020 to 2022</div>
+          <div class="exp-company">Prince Ademola Ventures</div>
+        </div>
         <div>
           <div class="exp-role">Receptionist and Records Admin</div>
           <ul class="exp-bullets">
@@ -244,11 +324,14 @@
       </div>
 
       <div class="experience-row">
-        <div><div class="exp-date">Sep to Dec 2024</div><div class="exp-company">Birmingham City University</div></div>
+        <div>
+          <div class="exp-date">Sep to Dec 2024</div>
+          <div class="exp-company">Birmingham City University</div>
+        </div>
         <div>
           <div class="exp-role">Course Representative</div>
           <ul class="exp-bullets">
-            <li>Got elected to represent my cohort and used the role, bringing real feedback to department meetings</li>
+            <li>Got elected to represent my cohort, brought real feedback to department meetings</li>
             <li>Learned how to put a point across professionally when it matters</li>
           </ul>
         </div>
@@ -259,44 +342,99 @@
 
   <hr class="divider">
 
-  <!-- 05 Certifications -->
+  <!-- 05 certifications -->
   <section class="section" id="certs">
     <div class="section-label">05 / Certifications</div>
     <h2 class="section-title reveal">What I've <em>earned</em></h2>
     <div class="cert-grid reveal">
-      <div class="cert-card"><div class="cert-icon">🎓</div><div><div class="cert-name">Responsive Web Design</div><div class="cert-org">freeCodeCamp · 2024</div></div></div>
-      <div class="cert-card"><div class="cert-icon">⚛️</div><div><div class="cert-name">Front-End Development Libraries</div><div class="cert-org">freeCodeCamp · 2025</div></div></div>
-      <div class="cert-card"><div class="cert-icon">📜</div><div><div class="cert-name">Introduction to JavaScript</div><div class="cert-org">Coursera · 2026</div></div></div>
-      <div class="cert-card"><div class="cert-icon">📋</div><div><div class="cert-name">Introduction to Project Management</div><div class="cert-org">Coursera · 2026</div></div></div>
-      <div class="cert-card"><div class="cert-icon">🏆</div><div><div class="cert-name">BCU Innovation Fest Presenter</div><div class="cert-org">IoT Motion Light System · 2025</div></div></div>
-      <div class="cert-card"><div class="cert-icon">🤝</div><div><div class="cert-name">IDP Charity Fundraiser</div><div class="cert-org">Abuja, Nigeria</div></div></div>
+      <div class="cert-card">
+        <div class="cert-icon">🎓</div>
+        <div>
+          <div class="cert-name">Responsive Web Design</div>
+          <div class="cert-org">freeCodeCamp · 2024</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">⚛️</div>
+        <div>
+          <div class="cert-name">Front-End Development Libraries</div>
+          <div class="cert-org">freeCodeCamp · 2025</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">📜</div>
+        <div>
+          <div class="cert-name">Introduction to JavaScript</div>
+          <div class="cert-org">Coursera · 2026</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">📋</div>
+        <div>
+          <div class="cert-name">Introduction to Project Management</div>
+          <div class="cert-org">Coursera · 2026</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🏆</div>
+        <div>
+          <div class="cert-name">BCU Innovation Fest Presenter</div>
+          <div class="cert-org">IoT Motion Light System · 2025</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🤝</div>
+        <div>
+          <div class="cert-name">IDP Charity Fundraiser</div>
+          <div class="cert-org">Abuja, Nigeria</div>
+        </div>
+      </div>
     </div>
   </section>
 
   <hr class="divider">
 
-  <!-- 06 Contact -->
+  <!-- 06 contact -->
   <section class="section" id="contact">
     <div class="section-label">06 / Contact</div>
     <h2 class="section-title reveal">Let's <em>talk</em></h2>
     <div class="contact-wrap reveal">
       <div>
-        <div class="availability-badge"><div class="availability-dot"></div>Open to placement from July 2026</div>
+        <div class="availability-badge">
+          <div class="availability-dot"></div>
+          Open to placement from July 2026
+        </div>
         <p class="contact-paragraph">Looking for a 12-month placement in software development, IT support or cybersecurity. If you're hiring or just want to connect, send me a message. I reply quickly.</p>
         <a href="mailto:emmanuel.owolomoshe@mail.bcu.ac.uk" class="btn btn-fill">Send an email</a>
       </div>
-      <div contact-linksass="contact-links">
+      <div class="contact-links">
         <a href="mailto:emmanuel.owolomoshe@mail.bcu.ac.uk" class="contact-link-item">
-          <div><div class="contact-link-label">Email</div><div class="contact-link-value">emmanuel.owolomoshe@mail.bcu.ac.uk</div></div><div class="contact-link-arrow">→</div>
+          <div>
+            <div class="contact-link-label">Email</div>
+            <div class="contact-link-value">emmanuel.owolomoshe@mail.bcu.ac.uk</div>
+          </div>
+          <div class="contact-link-arrow">→</div>
         </a>
         <a href="https://github.com/eowolomoshe399-svg" target="_blank" class="contact-link-item">
-          <div><div class="contact-link-label">GitHub</div><div class="contact-link-value">eowolomoshe399-svg</div></div><div class="contact-link-arrow">→</div>
+          <div>
+            <div class="contact-link-label">GitHub</div>
+            <div class="contact-link-value">eowolomoshe399-svg</div>
+          </div>
+          <div class="contact-link-arrow">→</div>
         </a>
         <a href="https://linkedin.com/in/emmanuel-owolomoshe" target="_blank" class="contact-link-item">
-          <div><div class="contact-link-label">LinkedIn</div><div class="contact-link-value">emmanuel-owolomoshe</div></div><div class="contact-link-arrow">→</div>
+          <div>
+            <div class="contact-link-label">LinkedIn</div>
+            <div class="contact-link-value">emmanuel-owolomoshe</div>
+          </div>
+          <div class="contact-link-arrow">→</div>
         </a>
         <a href="https://github.com/eowolomoshe399-svg/hex-memory-stack-calculator" target="_blank" class="contact-link-item">
-          <div><div class="contact-link-label">Latest Project</div><div class="contact-link-value">hex-memory-stack-calculator</div></div><div class="contact-link-arrow">→</div>
+          <div>
+            <div class="contact-link-label">Latest Project</div>
+            <div class="contact-link-value">hex-memory-stack-calculator</div>
+          </div>
+          <div class="contact-link-arrow">→</div>
         </a>
       </div>
     </div>
@@ -308,7 +446,7 @@
     <p>© 2026 Emmanuel Ilyas Owolomoshe</p>
   </footer>
 
-  <!-- Scripts -->
+  <!-- scripts -->
   <script src="assets/js/cursor.js"></script>
   <script src="assets/js/animations.js"></script>
 
